@@ -1,0 +1,92 @@
+GIT COMMAND DOCUMENTATION
+
+1. git init -b main
+Initializes a new local Git repository with main as its initial branch.
+
+2. git status
+Displays the current branch and working tree status.
+
+3. git add index.html about.html
+Stages both HTML files for the initial commit.
+
+4. git commit -m "Initial commit with HTML files"
+Creates the first commit containing the two HTML files.
+
+5. git log --oneline
+Displays a compact commit history.
+
+6. git diff
+Shows unstaged changes made to tracked files.
+
+7. git add index.html
+Stages modifications made to index.html.
+
+8. git commit -m "Update home page content"
+Records the updated home page.
+
+9. git branch feature
+Creates a new branch named feature.
+
+10. git switch feature
+Switches to the feature branch.
+
+11. git branch
+Lists local branches and identifies the active branch.
+
+12. git add about.html
+Stages the modified about.html file.
+
+13. git commit -m "Add new feature to about page"
+Records the changes made on the feature branch.
+
+14. git log --oneline --decorate
+Shows commit history with branch references.
+
+15. git switch main
+Returns to the main branch.
+
+16. git merge --no-ff feature -m "Merge feature branch into main"
+Merges the feature branch and creates a merge commit.
+
+17. git log --oneline --all --graph --decorate
+Displays the complete commit graph, including branch activity.
+
+18. git status --ignored --short
+Shows ignored, untracked, and modified files.
+
+19. git add .gitignore
+Stages the Git ignore configuration.
+
+20. git commit -m "Add gitignore configuration"
+Records the .gitignore file in the repository.
+
+21. git commit -m "Add temporary change"
+Records a temporary modification for the undo demonstration.
+
+22. git log --oneline -3
+Displays the three most recent commits.
+
+23. git revert --no-edit HEAD
+Reverses the latest commit by creating a new commit.
+
+24. git log --oneline -5
+Displays the five most recent commits.
+
+25. git show --stat HEAD
+Displays the latest commit and a summary of changed files.
+
+26. git add git_commands.txt
+Stages the Git command documentation.
+
+27. git commit -m "Add Git command documentation"
+Commits the documentation file.
+
+28. git remote add origin REPOSITORY_URL
+Connects the local repository to GitHub.
+
+29. git push -u origin main
+Pushes the main branch and sets its upstream branch.
+
+30. git push origin feature
+Pushes the feature branch to GitHub.
+
