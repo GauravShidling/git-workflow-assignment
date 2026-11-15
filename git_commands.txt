@@ -81,7 +81,7 @@ Stages the Git command documentation.
 27. git commit -m "Add Git command documentation"
 Commits the documentation file.
 
-28. git remote add origin REPOSITORY_URL
+28. git remote add origin https://github.com/GauravShidling/git-workflow-assignment.git
 Connects the local repository to GitHub.
 
 29. git push -u origin main
@@ -89,4 +89,7 @@ Pushes the main branch and sets its upstream branch.
 
 30. git push origin feature
 Pushes the feature branch to GitHub.
+
+31. git remote -v
+Displays the configured remote repository URLs for fetching and pushing.
 
